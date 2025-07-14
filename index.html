@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المدرسة - الصفحة الرئيسية</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        /* هذه الحاوية الجديدة التي ستضم الصورة والعنوان */
+        .header-container {
+            display: flex; /* لترتيب العناصر جنباً إلى جنب */
+            align-items: center; /* لمحاذاة العناصر في المنتصف عمودياً */
+            justify-content: center; /* لمحاذاة العناصر في المنتصف أفقياً */
+            gap: 20px; /* لإضافة مسافة بين الصورة والعنوان */
+        }
+        h1 {
+            color: #007bff;
+            margin: 0;
+        }
+        /* تصميم الصورة */
+        .main-image {
+            width: 100px; /* لتصغير الصورة، يمكنك تغيير القيمة */
+            height: auto;
+            border-radius: 8px;
+        }
+        p {
+            font-size: 1.1em;
+            text-align: justify;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-container">
+		<h1>أهلاً بكم في مدرستنا</h1>
+            <img src="azer.jpeg" alt="شعار المدرسة" class="main-image">
+            
+        </div>
+        
+        <p>
+            تعد مدرستنا رائدة في مجال التعليم التقني، حيث نقدم برامج تعليمية متطورة ومواكبة لسوق العمل. نحن نؤمن بأن التعليم هو مفتاح المستقبل، ونسعى لتزويد طلابنا بالمهارات اللازمة لتحقيق أحلامهم.
+        </p>
+        <p>
+            تتميز برامجنا بالجمع بين النظرية والتطبيق العملي، تحت إشراف نخبة من الأساتذة المتخصصين. انضموا إلينا اليوم لتبدأوا رحلتكم نحو النجاح!
+        </p>
+
+        <a href="diplomas.html" class="cta-button">اكتشف دبلوماتنا وسجل الآن</a>
+    </div>
+
+</body>
+</html>
